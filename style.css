@@ -1,0 +1,75 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Quiz Card */
+.quiz-box {
+  width: 100%;
+  max-width: 520px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  color: #fff;
+}
+
+/* Image */
+.quiz-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+/* Options */
+.option {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.02);
+}
+
+/* Correct / Wrong */
+.correct {
+  background: linear-gradient(135deg, #00c851, #007e33) !important;
+}
+
+.wrong {
+  background: linear-gradient(135deg, #ff4444, #cc0000) !important;
+}
+
+/* Button */
+.next-btn {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  border: none;
+  color: #000;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 8px 22px;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  transform: translateX(4px);
+}
+
+/* Progress bar */
+.progress {
+  height: 8px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.3);
+}
+
+.progress-bar {
+  background: linear-gradient(135deg, #00f260, #0575e6);
+}
